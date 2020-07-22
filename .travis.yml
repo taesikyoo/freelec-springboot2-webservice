@@ -33,7 +33,7 @@ deploy:
     local_dir: deploy
     wait-until-deploy: true
 
-  - provider: codedeply
+  - provider: codedeploy
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
     bucket: freelec-springboot-build-ts
